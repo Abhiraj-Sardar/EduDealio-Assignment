@@ -1,0 +1,27 @@
+body{
+    background-image: url("../static/quizbackground.jpg");
+    background-size: cover;
+}
+
+.quiz-list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    gap:2rem;
+}
+
+.quiz-list .quiz{
+    display: block;
+    margin-top: 2rem;
+    height:200px;
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: aliceblue;
+    cursor: pointer;
+}

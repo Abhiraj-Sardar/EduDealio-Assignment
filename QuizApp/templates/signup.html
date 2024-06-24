@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'index.css'%}">
+    <link rel="stylesheet" href="{%static 'signup.css'%}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                
+              <li class="nav-item home">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+
+              <li class="nav-item login-btn ">
+                <a href="register">
+                    <div class="btn btn-success"> Sign Up </div>
+                </a>
+                <a href="/login">
+                <div class="btn btn-success"> Sign In </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 signup-form">
+                  
+                    <form method="post" action="signup/" class="form signup">
+                        {% csrf_token %}
+                        <div class="card_header">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path fill="currentColor" d="M4 15h2v5h12V4H6v5H4V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6zm6-4V8l5 4-5 4v-3H2v-2h8z"></path>
+                          </svg>
+                          <h1 class="form_heading">Register</h1>
+                        </div>
+                        <div class="field">
+                          <label for="username">Username</label>
+                          <input class="input" name="uname" type="text" placeholder="Username" id="username">
+                        </div>
+                        <div class="field">
+                            <label for="uemail">Email</label>
+                            <input class="input" name="uemail" type="email" placeholder="Email" id="password">
+                          </div>
+                        <div class="field">
+                          <label for="password">Password</label>
+                          <input class="input" name="upass" type="password" placeholder="Password" id="password">
+                        </div>
+                        <div class="field">
+                            <label for="password">Date-Of-Birth</label>
+                            <input class="input" name="udob" type="date" placeholder="Designation" id="password">
+                          </div>
+                        <div class="field">
+                            <label for="password">Designation</label>
+                            <input class="input" name="udesg" type="text" placeholder="Designation" id="password">
+                          </div>
+
+                        <div class="field">
+                          <button class="button" type="submit">Sign Up</button>
+                        </div>
+                      </form>
+            </div>
+            <div class="col-6">
+            
+            </div>
+        </div>
+      </div>
+      
+</body>
+</html>

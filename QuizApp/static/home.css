@@ -1,0 +1,216 @@
+body{
+    background-image: url("../static/homebg.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+}
+.logo-container{
+    margin-left: 42rem;
+}
+.profile-logo{
+    height:40px;
+    width:45px;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu{
+    position: absolute;
+    right:-460px;
+    height:90vh;
+    width:30%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.menu .options{
+    display: flex;
+    flex-direction: column;
+}
+.menu .options h3{
+    text-align: center;
+}
+
+.menu i{
+    position: absolute;
+    top:10px;
+    right:10px;
+    float: right;
+    font-size: 32px;
+}
+
+.user-info{
+    /* background-color: aqua; */
+    
+}
+
+.user-info .user-profile-logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:250px;
+    width: 250px;
+    margin-top: 1rem;
+    background-color: rgb(204, 220, 204);
+    border-radius: 100%;
+}
+
+.coin i{
+    color: yellow;
+}
+
+.coin .rank{
+    color:black;
+}
+
+.status-container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:2rem;
+}
+
+.status-container .rank-status{
+height:170px;
+width:290px;
+display: flex;
+border-radius: 10px;
+overflow: hidden;
+background-color: aqua;
+}
+
+.status-container .rank-status .rank-logo{
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size: 32px;
+width:40%;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+background-color: rgb(248, 246, 246);
+}
+
+.status-container .rank-status .rank-text{
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: rgb(88, 85, 85);
+    color: aliceblue;
+}
+
+
+.status-container .coin-status{
+    height:170px;
+    width:290px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: aqua;
+    }
+    
+    .status-container .coin-status .coin-logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 32px;
+    width:40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(248, 246, 246);
+    }
+    
+    .status-container .coin-status .coin-text{
+        width:60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 500;
+        background-color: rgb(88, 85, 85);
+        color: aliceblue;
+    }
+
+
+    .status-container .work-status{
+        height:170px;
+        width:290px;
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: aqua;
+        }
+        
+        .status-container .work-status .work-logo{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 32px;
+        width:40%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: rgb(248, 246, 246);
+        }
+        
+        .status-container .work-status .work-text{
+            width:60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 500;
+            background-color: rgb(88, 85, 85);
+            color: aliceblue;
+        }
+
+        .status-container .score-status{
+            height:170px;
+            width:290px;
+            display: flex;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: aqua;
+            }
+            
+            .status-container .score-status .score-logo{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 32px;
+            width:40%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(248, 246, 246);
+            }
+            
+            .status-container .score-status .score-text{
+                width:60%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 24px;
+                font-weight: 500;
+                background-color: rgb(88, 85, 85);
+                color: aliceblue;
+            }
