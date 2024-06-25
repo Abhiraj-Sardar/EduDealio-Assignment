@@ -21,3 +21,11 @@ Password : abhi5678
 ## Login Page
 
 ![](https://github.com/Abhiraj-Sardar/EduDealio-Assignment/blob/master/output/2.png)
+
+## Home Page
+
+![](https://github.com/Abhiraj-Sardar/EduDealio-Assignment/blob/master/output/3.png)
+
+## Quiz Page
+![](https://github.com/Abhiraj-Sardar/EduDealio-Assignment/blob/master/output/4.png)
+![](https://github.com/Abhiraj-Sardar/EduDealio-Assignment/blob/master/output/5.png)
