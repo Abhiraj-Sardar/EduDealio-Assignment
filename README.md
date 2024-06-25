@@ -15,3 +15,9 @@ username : admin
 Password : abhi5678
 ```
 ## Registration Page
+
+![](https://github.com/Abhiraj-Sardar/EduDealio-Assignment/blob/master/output/1.png)
+
+## Login Page
+
+![](https://github.com/Abhiraj-Sardar/EduDealio-Assignment/blob/master/output/2.png)
